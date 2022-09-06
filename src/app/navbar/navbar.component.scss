@@ -1,0 +1,227 @@
+.spacer {
+  flex: 1 1 auto;
+}
+
+.mat-toolbar {
+  background: rgb(255, 255, 255);
+  height: 56px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+}
+
+.nom {
+  color: #46beaa;
+  width: 2px;
+  font-size: 18px;
+  width: 128px;
+  height: 56px;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  top: -4px;
+  left: 0px;
+  padding-top: 16px;
+  padding-left: 16px;
+}
+
+.b {
+  background: trasnparent;
+  border: 0.0rem solid rgb(197, 193, 193);
+  border-radius: 0.5rem;
+}
+
+.pic {
+  width: 178px;
+  height: 56px;
+  padding: 16px;
+  margin: 0px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.material-icons {
+  color: #010a0f;
+  font-size: 24px;
+  margin-right: 178px;
+}
+
+.pic2 {
+  max-width: 4%;
+  max-height: 4%;
+  position: absolute;
+  right: 400px;
+  top: 10px;
+}
+
+.spacer2 {
+  flex: 0.02 0.02 auto;
+}
+
+.multiselect {
+  width: 200px;
+}
+
+.selectBox {
+  position: relative;
+}
+
+.selectBox select {
+  width: 100%;
+  font-weight: bold;
+}
+
+.overSelect {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#checkboxes {
+  display: none;
+  border: 1px #dadada solid;
+}
+
+#checkboxes label {
+  display: block;
+}
+
+#checkboxes label:hover {
+  background-color: #1e90ff;
+}
+
+.styled {
+  height: 58px;
+  width: 150px;
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  background-image: linear-gradient(to top left,
+      rgba(0, 0, 0, .2),
+      rgba(0, 0, 0, .2) 30%,
+      rgba(0, 0, 0, 0));
+  box-shadow: inset 2px 2px 3px rgb(255, 255, 255),
+    inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+  background-color: #46beaa;
+}
+
+.styled:active {
+  box-shadow: inset -2px -2px 3px rgba(245, 240, 240, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.spacer3 {
+  flex: 0.1 0.1 auto;
+}
+
+select {
+  background: transparent !important;
+  color: #0c0000;
+  border: 0;
+  width: 97px;
+  padding-left: 0px;
+  margin-left: 72px;
+  margin-right: 0px;
+}
+
+select option {
+  margin: 40px;
+  background: rgb(255, 255, 255);
+  color: rgba(3, 2, 3, 0.8);
+}
+
+.vl {
+  border-left: 1px solid #a7aaaa;
+  height: 35px;
+  position: absolute;
+  left: 128px;
+}
+
+.vl1 {
+  border-left: 1px solid #a7aaaa;
+  height: 35px;
+  position: absolute;
+  right: 178px;
+}
+
+.deconn {
+  position: absolute;
+  right: 220px;
+  top: 12px;
+  color: #46beaa;
+  font-size: 14px;
+  font-weight: 'normal'
+}
+
+.logoDeconn {
+  position: absolute;
+  left: -30px;
+  top: 1px;
+  color: #000000;
+  font-size: 32px;
+}
+
+.logoDeconn:hover {
+  color: #46beaa;
+}
+
+.nam {
+  color: #12152b;
+  margin-right: 0px;
+  position: absolute;
+  top: 13px;
+  right: 450px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+
+
+
+
+
+::ng-deep .mat-form-field.mat-focused .mat-form-field-ripple {
+
+  background-color: rgb(0, 0, 0);
+}
+
+
+::ng-deep .mat-primary .mat-option.mat-selected:not(.mat-option-disabled) {
+  color: #46beaa;
+}
+
+
+.mat-option {
+
+  color: #0c0000;
+
+}
+
+::ng-deep .mat-form-field-underline {
+  display: none;
+}
+
+::ng-deep .mat-select-arrow {
+  position: relative;
+  top: 6px;
+  right: 25px;
+
+}
+
+#example1 {
+  display: block;
+  width: 10px;
+}
+
+
+
+::ng-deep .mat-select-panel {
+  min-width: 100% !important;
+}

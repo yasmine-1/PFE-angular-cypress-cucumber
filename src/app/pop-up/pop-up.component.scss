@@ -1,0 +1,65 @@
+.mdc-dialog {
+    background-color: aliceblue;
+}
+
+.mdc-dialog__container {
+    background-color: aliceblue;
+}
+
+.mdc-dialog__surface {
+    background-color: aliceblue;
+}
+
+.mdc-dialog__content {
+    background-color: aliceblue;
+}
+
+.mat-dialog-content {
+    background-color: white;
+}
+
+.mat-dialog-title {
+    background-color: white;
+    color: black;
+    width: 377px;
+    margin-top: -22px;
+    margin-left: -22px;
+}
+
+.ferme {
+    position: fixed;
+
+    margin-left: 45px;
+}
+
+.icon1 {
+    position: relative;
+}
+
+.titre1 {
+    position: relative;
+    top: -18px;
+    margin-left: 35px;
+    color: black;
+    font-size: 17px;
+}
+
+::ng-deep mat-dialog-container {
+    background-color: #f5f6fa !important;
+}
+
+.titrePrincipal {
+    height: 75px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 550;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.iconPrincipal {
+    height: 45px;
+    width: 45px;
+    padding-right: 10px;
+}

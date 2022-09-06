@@ -1,0 +1,252 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "testing CSS styles of home page",
+    "line": 1,
+    "id": "testing-css-styles-of-home-page",
+    "tags": [],
+    "uri": "stylesHome.feature",
+    "elements": [
+      {
+        "id": "testing-css-styles-of-home-page;making-sure-that-i-am-on-landing-page",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Making sure that I am on landing page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "EXCEL file is read and transformed into JSON file",
+            "result": {
+              "status": "passed",
+              "duration": 92000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I access to the website of e-Portal",
+            "result": {
+              "status": "passed",
+              "duration": 2761000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "email \"yasmine.walha@enis.tn\" should be filled in",
+            "result": {
+              "status": "passed",
+              "duration": 1422000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "password \"123123\" should be filled in",
+            "result": {
+              "status": "passed",
+              "duration": 2309000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Footer is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 2016000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "testing-css-styles-of-home-page;verifying-color-of-all-elements-in-home-page",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Verifying color of all elements in home page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "EXCEL file is read and transformed into JSON file",
+            "result": {
+              "status": "passed",
+              "duration": 29000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I access to the website of e-Portal",
+            "result": {
+              "status": "passed",
+              "duration": 2420000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "email \"yasmine.walha@enis.tn\" should be filled in",
+            "result": {
+              "status": "passed",
+              "duration": 1403000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "password \"123123\" should be filled in",
+            "result": {
+              "status": "passed",
+              "duration": 2314000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Color should be verified for all elements in home page",
+            "result": {
+              "status": "passed",
+              "duration": 26579000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "testing-css-styles-of-home-page;verifying-width-of-all-elements-in-home-page",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Verifying width of all elements in home page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "EXCEL file is read and transformed into JSON file",
+            "result": {
+              "status": "passed",
+              "duration": 138000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I access to the website of e-Portal",
+            "result": {
+              "status": "passed",
+              "duration": 2435000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "email \"yasmine.walha@enis.tn\" should be filled in",
+            "result": {
+              "status": "passed",
+              "duration": 1404000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "password \"123123\" should be filled in",
+            "result": {
+              "status": "passed",
+              "duration": 2287000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Width should be verified for all elements in home page",
+            "result": {
+              "status": "passed",
+              "duration": 26607000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "testing-css-styles-of-home-page;verifying-height-of-all-elements-in-home-page",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Verifying height of all elements in home page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "EXCEL file is read and transformed into JSON file",
+            "result": {
+              "status": "passed",
+              "duration": 117000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I access to the website of e-Portal",
+            "result": {
+              "status": "passed",
+              "duration": 2706000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "email \"yasmine.walha@enis.tn\" should be filled in",
+            "result": {
+              "status": "passed",
+              "duration": 1401000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "password \"123123\" should be filled in",
+            "result": {
+              "status": "passed",
+              "duration": 2335000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Height should be verified for all elements in home page",
+            "result": {
+              "status": "passed",
+              "duration": 26652000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

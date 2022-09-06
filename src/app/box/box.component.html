@@ -1,0 +1,33 @@
+<div fxLayout="row" fxLayoutAlign="center center">
+  <mat-card class="example-card">
+
+
+    <mat-card-header>
+      <mat-card-title id="Titre">{{'home.'+box.title|translate }}</mat-card-title>
+      <mat-card-subtitle>{{'home.'+box.description|translate }}</mat-card-subtitle>
+    </mat-card-header>
+
+    <img mat-card-sm-image src="{{box.icon}}" class="iconPrincipal" alt="image" />
+    <div *ngFor="let item of box.modules; index as indexOfelement;">
+
+      <img *ngIf="indexOfelement===0" class="icon1" src="{{item.icon}}" alt="image" />
+      <p class="title1" *ngIf="indexOfelement===0">{{'home.' +item.name| translate }}</p>
+
+      <img *ngIf="indexOfelement===1" class="icon2" src="{{item.icon}}" alt="image" />
+      <div *ngIf="item.name=='omniimmediate'"><a routerLink="/omnichannel" class="linkToJournal">
+          <p class="title2" *ngIf="indexOfelement===1">{{'home.'+item.name|translate}}</p>
+        </a></div>
+      <div *ngIf="item.name!='omniimmediate'">
+        <p class="title2" *ngIf="indexOfelement===1">{{'home.'+item.name|translate}}</p>
+      </div>
+      <ng-container *ngIf="box.modules.length> 3; then first else second"></ng-container>
+      <ng-template #first>
+        <div (click)="openDialog(box)" class="ViewAll" id="MyViewAllButton">{{'home.viewAll'|translate}}</div>
+      </ng-template>
+      <ng-template #second>
+        <img *ngIf="indexOfelement===2" class="icon3" src="{{item.icon}}" alt="image" />
+        <p class="title3" *ngIf="indexOfelement===2">{{'home.' +item.name| translate}}</p>
+      </ng-template>
+    </div>
+  </mat-card>
+</div>

@@ -1,0 +1,26 @@
+<mat-sidenav-container class="sidenavStyle">
+  <mat-sidenav #drawer class="sidenav" fixedInViewport [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+    [mode]="(isHandset$ | async) ? 'over' : 'side'" [opened]="(isHandset$ | async) === false">
+    <a routerLink="/home" class="linkToOmnichannel">
+      <mat-toolbar class="titre"><img src="assets/Vector11.png" alt="image" class="icon" />e-Portal
+        {{'journal.'+'homePage'|translate}}</mat-toolbar>
+    </a>
+    <p class="navigation">Navigation</p>
+    <mat-nav-list>
+      <div *ngFor="let box of boxes">
+        <div *ngIf="box.title=='omnichannelReporting'">
+          <div class="box"></div>
+          <div *ngFor="let item of box.modules; index as indexOfelement;">
+            <div *ngIf="item.name=='omniimmediate'">
+              <p mat-list-item class="item"><img src="{{item.icon}}" alt="image" class="icon" />
+                {{'home.'+item.name|translate}}
+              </p>
+            </div>
+            <div *ngIf="item.name!=='omniimmediate'">
+              <p mat-list-item class="items"><img src="{{item.icon}}" alt="image"
+                  class="icon" />{{'home.'+item.name|translate}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </mat-nav-list>

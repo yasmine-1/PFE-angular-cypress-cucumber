@@ -1,0 +1,21 @@
+{
+    "login": {
+        "Title": "Willkommen zu e-Portal",
+        "NewUser": "Neuer Benutzer? Klicken Sie hier, um sich anzumelden",
+        "FPassword": "Passwort vergessen?",
+        "issue": "Bei Problemen wenden Sie sich bitte an Ihren",
+        "login": "Anmeldung",
+        "email": "E-Mail-Addresse",
+        "emailError": "E-Mail ist erforderlich",
+        "password": "Passwort",
+        "passwordError": "Passwort wird benötigt",
+        "message": "Ungültige Authentifizierung",
+        "Register": "Bitte registrieren Sie sich",
+        "name": "Vollständiger Name",
+        "mobile": "Handy",
+        "nameError": "Name ist erforderlich. bitte tragen Sie Ihren vollen Namen ein",
+        "mobileError": "Mobiltelefon ist erforderlich. Bitte geben Sie Ihr Handy ein",
+        "registered": "Bereits registriert? Klicken Sie hier, um sich einzuloggen",
+        "signup": "Anmelden"
+    }
+}

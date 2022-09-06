@@ -1,0 +1,81 @@
+.list {
+    position: absolute;
+    top: 12px;
+    left: 150px;
+    font-weight: normal;
+}
+
+.mat-menu-item {
+    background: rgb(255, 255, 255);
+    color: rgba(3, 2, 3, 0.8);
+    font-weight: normal;
+}
+
+.mat-menu-item:hover {
+    background: rgb(232, 225, 225);
+    color: rgba(3, 2, 3, 0.8);
+}
+
+.icon {
+    height: 28px;
+    width: 28px;
+    margin-right: 8px;
+}
+
+.BigIcon {
+    height: 38px;
+    width: 38px;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+::ng-deep .mat-menu-content {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    width: 280px
+}
+
+.omnichannel {
+    background: rgb(195, 189, 189);
+}
+
+.linkToOmnichannel {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+.body {
+    width: 100%;
+    height: calc(100% - 58px);
+    background-color: rgb(241, 236, 236);
+}
+
+.journal {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 14px;
+    font-size: small;
+    font-weight: 500;
+    color: rgb(115, 113, 113);
+}
+
+.mat-card {
+    width: 1610px;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(2, 105, 119);
+    font-weight: 400;
+}
+
+.ligne {
+    border-bottom: 3px solid rgb(2, 105, 119);
+    position: relative;
+    bottom: 3px;
+    left: 8px;
+    width: 95px;
+}
+
+.matMenu {
+    font-weight: 300;
+}

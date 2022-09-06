@@ -1,0 +1,172 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "testing CSS styles of login page",
+    "line": 1,
+    "id": "testing-css-styles-of-login-page",
+    "tags": [],
+    "uri": "stylesLogin.feature",
+    "elements": [
+      {
+        "id": "testing-css-styles-of-login-page;making-sure-that-i-am-on-login-page",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Making sure that I am on login page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "EXCEL file is read and transformed into JSON file",
+            "result": {
+              "status": "passed",
+              "duration": 99000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I access to the website of e-Portal",
+            "result": {
+              "status": "passed",
+              "duration": 2761000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "'Welcome to e-Portal' is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 2028000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "testing-css-styles-of-login-page;verifying-color-of-all-elements-in-login-page",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Verifying color of all elements in login page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "EXCEL file is read and transformed into JSON file",
+            "result": {
+              "status": "passed",
+              "duration": 36000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I access to the website of e-Portal",
+            "result": {
+              "status": "passed",
+              "duration": 2389000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Color should be verified for all elements in login page",
+            "result": {
+              "status": "passed",
+              "duration": 108000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "testing-css-styles-of-login-page;verifying-width-of-all-elements-in-login-page",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Verifying width of all elements in login page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "EXCEL file is read and transformed into JSON file",
+            "result": {
+              "status": "passed",
+              "duration": 80000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I access to the website of e-Portal",
+            "result": {
+              "status": "passed",
+              "duration": 2409000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Width should be verified for all elements in login page",
+            "result": {
+              "status": "passed",
+              "duration": 91000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "testing-css-styles-of-login-page;verifying-height-of-all-elements-in-login-page",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Verifying height of all elements in login page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "EXCEL file is read and transformed into JSON file",
+            "result": {
+              "status": "passed",
+              "duration": 78000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I access to the website of e-Portal",
+            "result": {
+              "status": "passed",
+              "duration": 2446000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Height should be verified for all elements in login page",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: expected '20px' to equal '10px'\n    + expected - actual\n\n    -'20px'\n    +'10px'\n\n    at eval (http://localhost:4200/__cypress/tests?p=cypress\\integration\\stylesLogin.feature:511:61)\nat Array.forEach (<anonymous>)\n    at eval (http://localhost:4200/__cypress/tests?p=cypress\\integration\\stylesLogin.feature:508:11)\nat Array.forEach (<anonymous>)\n    at Context.eval (http://localhost:4200/__cypress/tests?p=cypress\\integration\\stylesLogin.feature:507:14)\n    at Context.resolveAndRunStepDefinition (http://localhost:4200/__cypress/tests?p=cypress\\integration\\stylesLogin.feature:7979:29)\n    at Context.eval (http://localhost:4200/__cypress/tests?p=cypress\\integration\\stylesLogin.feature:7300:35)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

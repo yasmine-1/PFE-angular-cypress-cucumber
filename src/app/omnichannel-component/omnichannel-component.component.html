@@ -1,0 +1,32 @@
+<app-navbar></app-navbar>
+<div class="body">
+  <div *ngFor="let box of boxes" class="linkToOmnichannel">
+    <div *ngIf="box.title=='omnichannelReporting'">
+      <button mat-button [matMenuTriggerFor]="menu" class="list">
+        <mat-icon>arrow_drop_down</mat-icon><img src="assets/icn_document_report.png" alt="image"
+          class="BigIcon" />{{'home.'+box.title|translate}}
+      </button>
+    </div>
+  </div>
+  <mat-menu #menu="matMenu">
+    <a routerLink="/home" class="linkToOmnichannel"><button mat-menu-item><img src="assets/carte.png" alt="image"
+          class="icon" />{{'journal.'+'homePage'|translate}}</button></a>
+    <button mat-menu-item class="omnichannel"><img src="assets/icn_document_report.png" alt="image"
+        class="icon" />Omnichannel Reporting</button>
+    <div *ngFor="let box of boxes" class="linkToOmnichannel">
+      <div *ngIf="box.title!='omnichannelReporting'">
+        <button mat-menu-item><img src="{{box.icon}}" alt="image"
+            class="icon" />{{'home.'+box.title|translate}}</button>
+      </div>
+    </div>
+  </mat-menu>
+  <div class="journal">
+    <p>Journal</p>
+    <mat-card>Transactions</mat-card>
+    <div class="ligne"></div>
+    <br>
+    <br>
+    <app-tables></app-tables>
+  </div>
+</div>
+<app-sidenav></app-sidenav>

@@ -1,0 +1,132 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "testing internationalization labels of login page",
+    "line": 1,
+    "id": "testing-internationalization-labels-of-login-page",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "testing-internationalization-labels-of-login-page;making-sure-that-i-am-on-login-page",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Making sure that I am on login page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "EXCEL file is read and transformed into JSON file",
+            "result": {
+              "status": "passed",
+              "duration": 94000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I access to the website of e-Portal",
+            "result": {
+              "status": "passed",
+              "duration": 2783000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "'Welcome to e-Portal' is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 2047000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "testing-internationalization-labels-of-login-page;testing-labels-with-english-language-in-login-page",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Testing labels with English language in login page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "EXCEL file is read and transformed into JSON file",
+            "result": {
+              "status": "passed",
+              "duration": 33000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I access to the website of e-Portal",
+            "result": {
+              "status": "passed",
+              "duration": 2390000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Labels should be verified with English language",
+            "result": {
+              "status": "passed",
+              "duration": 222000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "testing-internationalization-labels-of-login-page;testing-labels-with-frensh-language-in-login-page",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Testing labels with Frensh language in login page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "EXCEL file is read and transformed into JSON file",
+            "result": {
+              "status": "passed",
+              "duration": 51000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I access to the website of e-Portal",
+            "result": {
+              "status": "passed",
+              "duration": 2390000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Labels should be verified with Frensh language",
+            "result": {
+              "status": "passed",
+              "duration": 269000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+<h1 mat-dialog-title>
+  <div class="titrePrincipal">
+    <img class="iconPrincipal" src="{{data.icon}}" alt="image" />
+    {{'home.' +data.title | translate }}
+    <button class="ferme" mat-icon-button aria-label="close dialog" id="buttonFerme" mat-dialog-close>
+      <mat-icon>close</mat-icon>
+    </button>
+  </div>
+</h1>
+<div *ngFor="let item of data.modules; index as indexOfelement;">
+  <img src="{{item.icon}}" alt="image" class="icon1" />
+  <p class="titre1">{{'home.' +item.name|translate}}</p>
+</div>

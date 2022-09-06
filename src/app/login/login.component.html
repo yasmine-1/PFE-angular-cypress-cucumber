@@ -1,0 +1,61 @@
+<img src="assets/backp4.jpg" class="fondecran" alt="image" />
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card" id="myCard">
+                <h1>
+                    <form action="#"><img src="assets/worldline-logo.png" class="logoWorldline" alt="image" /><select
+                            name="language" #selectedLang (change)="switchLang(selectedLang.value)">
+                            <option *ngFor="let language of translate.getLangs()" [value]=language
+                                [selected]="language===translate.currentLang">{{language}}</option>
+                        </select></form>
+                </h1>
+                <br>
+                <div class="text-center">
+                    <h2 class="title" id="titlename">{{ 'login.Title' | translate }}</h2>
+                </div>
+                <form>
+                    <form [formGroup]="loginForm" (ngSubmit)="login()">
+
+                        <div class="mb-3">
+                            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+                            <div *ngIf="message" [ngClass]="message.cssClass" class="ErrPlace">
+                                <div class="material-icons red-color"
+                                    style="position: fixed;bottom:417px;right:418px;font-size:20px;">error</div>
+                                {{'login.message'| translate}}
+                            </div>
+                            <input formControlName="email" type="text" class="mailHelp" id="exampleInputEmail1"
+                                name="email" aria-describedby="emailHelp" placeholder="{{'login.email'|translate}}">
+                            <div *ngIf="loginForm.controls['email'].dirty && loginForm.hasError('required','email')"
+                                class="ErrorMail" id="requiredMail">{{'login.emailError'| translate}}</div>
+                        </div>
+
+
+                        <div class="mb-3">
+                            <input formControlName="password" type="password" class="passwordHelp"
+                                id="exampleInputPassword1" placeholder="{{'login.password'|translate}}">
+                            <div *ngIf="loginForm.controls['password'].dirty && loginForm.hasError('required','password')"
+                                class="ErrorPassword" id="requiredPassword">{{'login.passwordError'|translate}}</div>
+                            <br>
+                            <h4 class="forgotPassword" id="forgotPasswords">{{'login.FPassword' | translate}}</h4>
+                        </div>
+
+                        <button input class="favorite styled" id="bouton" type="button" type="submit"
+                            [disabled]="!loginForm.valid"
+                            style="margin-top: 216px; margin-right:8px;position: relative;">{{'login.login'| translate
+                            }}</button>
+                    </form>
+                </form>
+
+                <a routerLink="/signup">
+                    <h4 class="NewUser" id="newUser">{{'login.NewUser'| translate }}</h4>
+                </a>
+                <div id="emailHelp" class="Problem">{{'login.issue' | translate}}<span class="Help"> Helpdesk</span>
+                </div>
+                <br>
+                <h6 class="logoWorldlineBottom" id="worldline">© Worldline 2022</h6>
+
+            </div>
+        </div>
+    </div>
+</div>

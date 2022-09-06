@@ -1,0 +1,94 @@
+[
+	{
+        "id": 1,
+        "title": "omnichannelReporting",
+        "description": "omnidescription",
+        "icon": "../assets/icn_document_report.png",
+        "modules": [{
+                "name": "omnidashboard",
+                "icon": "../assets/Vector2.png"
+            }, {
+                "name": "omniimmediate",
+                "icon": "../assets/Vector1.png"
+            }, {
+                "name": "omnischeduled",
+                "icon": "../assets/Vector3.png"
+            }, {
+                "name": "omnitransaction",
+                "icon": "../assets/Vector4.png"
+            }, {
+                "name": "omnirisk",
+                "icon": "../assets/Vector5.png"
+            }, {
+                "name": "omnimerchant",
+                "icon": "../assets/Vector2.png"
+            }
+            
+   
+
+        ]
+    },
+	{
+        "id": 2,
+        "title": "onboarding",
+        "description": "onboardingdescription",
+        "icon": "../assets/icn_computer-cart.png",
+        "modules": [{
+                "name": "onboardingprojects",
+                "icon": "../assets/Vector9.png"
+            }, {
+                "name": "onboardingtokenization",
+                "icon": "../assets/Vector8.png"
+            }
+        ]
+    },
+	{
+        "id": 3,
+        "title": "terminal",
+        "description": "terminaldescription",
+        "icon": "../assets/Group 5.png",
+        "modules": [{
+                "name": "terminalsnapshot",
+                "icon": "../assets/Vector5.png"
+            }, {
+                "name": "terminalsoftware",
+                "icon": "../assets/Vector4.png"
+            },{
+				"name": "terminalhardware",
+				"icon": "../assets/Vector3.png"
+			},{
+				"name": "terminaltokenization",
+				"icon": "../assets/Vector8.png"
+			}
+        ]
+    },
+    {
+        "id": 4,
+        "title": "online",
+        "description": "onlinedescription",
+        "icon": "../assets/icn_phone-and-card.png",
+        "modules": [{
+                "name": "onlinemain",
+                "icon": "../assets/Vector11.png"
+            }, {
+                "name": "onlinetransactions",
+                "icon": "../assets/Vector7.png"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "monitoring",
+        "description": "monitoringdescription",
+        "icon": "../assets/icn_closer-look.png",
+        "modules": [{
+                "name": "monitoringdefined",
+                "icon": "../assets/Vector7.png"
+            }, {
+                "name": "monitoringdefined",
+                "icon": "assets/Monitoring.png"
+            }
+        ]
+    }
+
+]

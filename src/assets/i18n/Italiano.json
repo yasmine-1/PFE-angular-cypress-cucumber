@@ -1,0 +1,21 @@
+{
+    "login": {
+        "Title": "Benvenuto in e-Portal",
+        "NewUser": "nuovo utente? clicca qui per registrarti",
+        "FPassword": "Hai dimenticato la password?",
+        "issue": "Se c'è un problema, per favore contatta il tuo",
+        "login": "Per accedere",
+        "email": "Indirizzo di posta",
+        "emailError": "L'indirizzo e-mail è obbligatorio",
+        "password": "Parola d'ordine",
+        "passwordError": "E 'richiesta la password",
+        "message": "Autenticazione non valida",
+        "Register": "per favore registra",
+        "name": "Cognome e nome",
+        "mobile": "numero di telefono",
+        "nameError": "Nome e cognome sono obbligatori",
+        "mobileError": "Il numero di telefono è richiesto",
+        "registered": "Già registrato? Clicca qui per accedere",
+        "signup": "Registrati"
+    }
+}

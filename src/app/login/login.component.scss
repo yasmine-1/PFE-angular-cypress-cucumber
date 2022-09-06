@@ -1,0 +1,232 @@
+.fondecran {
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    border: none;
+    width: 492px;
+    height: 600px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    border: 0;
+}
+
+.card h2,
+h6,
+h3 {
+    color: #fff;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.card h1,
+h2 {
+    text-align: left;
+}
+
+.card h4 {
+    color: #46beaa;
+    text-align: right;
+}
+
+.card,
+h6 {
+    text-align: center;
+}
+
+.logoWorldline {
+    max-width: 60%;
+}
+
+.title {
+    color: #FFFFFF;
+    padding-left: 12px;
+}
+
+.NewUser {
+    text-decoration: underline;
+    color: #46beaa;
+    text-align: left;
+    margin-top: 16px;
+    position: absolute;
+    right: 62px;
+}
+
+.mailHelp {
+    width: 383px;
+    height: 55px;
+    margin-top: 32px;
+    border-radius: 10px;
+    border: 0;
+    padding-left: 8px;
+    position: fixed;
+    margin-left: 12px;
+}
+
+.mailHelp:hover {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+}
+
+*:focus {
+    outline: 0 !important;
+}
+
+.passwordHelp {
+    width: 383px;
+    height: 55px;
+    margin-top: 128px;
+    border-radius: 10px;
+    border: 0;
+    padding-left: 8px;
+    position: fixed;
+    margin-left: 12px;
+}
+
+input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(0, 0, 0, .6);
+    opacity: 1;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: rgba(0, 0, 0, .6);
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: rgba(0, 0, 0, .6);
+}
+
+select {
+    background: transparent !important;
+    color: #ffffff;
+    border: 0;
+    width: 80px;
+    padding-left: 0px;
+    margin-left: 72px;
+    margin-right: 0px;
+    font-size: .9rem;
+    padding: 2px 5px;
+}
+
+select option {
+    margin: 40px;
+    background: rgb(255, 255, 255);
+    color: rgba(3, 2, 3, 0.8);
+}
+
+select:focus>option:checked {
+    background: #46beaa !important;
+}
+
+
+//pour le bouton style
+.styled {
+    border: 0;
+    line-height: 2.5;
+    width: 385px;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: #46beaa;
+    background-image: linear-gradient(to top left,
+            rgba(0, 0, 0, .2),
+            rgba(0, 0, 0, .2) 30%,
+            rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+        inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: #46beaa;
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+        inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:disabled {
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.error {
+    margin-left: 4px;
+    color: #D8000C;
+    background-color: #FFBABA;
+    background-image: url('https://i.imgur.com/GnyDvKN.png');
+}
+
+.ErrPlace {
+    color: rgb(250, 158, 158);
+    position: absolute;
+    margin-left: 37px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.ErrorMail {
+    position: absolute;
+    margin-top: 90px;
+    margin-bottom: 80px;
+    margin-left: 16px;
+    color: rgb(250, 158, 158);
+}
+
+.ErrorPassword {
+    position: fixed;
+    margin-top: 187px;
+    margin-bottom: 80px;
+    margin-left: 16px;
+    color: rgb(250, 158, 158);
+}
+
+.forgotPassword {
+    text-decoration: underline;
+    color: #46beaa;
+    position: fixed;
+    right: 59px;
+    margin-top: 192px;
+    margin-bottom: 80px;
+}
+
+.Problem {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 50px;
+    left: 108px;
+    font-size: 12px;
+}
+
+.Help {
+    text-decoration: underline;
+    color: #46beaa;
+}
+
+.logoWorldlineBottom {
+    position: absolute;
+    bottom: 0px;
+    left: 210px;
+}

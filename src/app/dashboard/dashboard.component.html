@@ -1,0 +1,8 @@
+<div class="grid-container">
+  <mat-grid-list cols="3" rowHeight="270px">
+    <mat-grid-tile *ngFor="let box of boxes " [colspan]="( cardLayout | async )?.miniCard.cols"
+      [rowspan]="( cardLayout | async )?.miniCard.rows">
+      <app-box [box]="box"></app-box>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>

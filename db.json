@@ -1,0 +1,51 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "signupUsers": [
+    {
+      "fullname": "Yasmine",
+      "email": "yasmine.walha@enis.tn",
+      "password": "123123",
+      "mobile": "",
+      "id": 1,
+      "Languages": "English,Français"
+    },
+    {
+      "fullname": "walha",
+      "mobile": 2511,
+      "email": "walha@enis.tn",
+      "password": "123123",
+      "id": 6,
+      "Languages": "English"
+    },
+    {
+      "fullname": "yw",
+      "email": "yw@enis.tn",
+      "password": "123123",
+      "id": 7,
+      "Languages": "English"
+    },
+    {
+      "fullname": "yasminee",
+      "email": "yasminee@enis.tn",
+      "password": "123123",
+      "id": 8,
+      "Languages": "English"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

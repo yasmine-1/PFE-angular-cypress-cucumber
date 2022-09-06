@@ -1,0 +1,16 @@
+{
+  "integrationFolder": "cypress/integration",
+  "supportFile": "cypress/support/index.js",
+  "videosFolder": "cypress/videos",
+  "screenshotsFolder": "cypress/screenshots",
+  "pluginsFile": "cypress/plugins/index.js",
+  "fixturesFolder": "cypress/fixtures",
+  "testFiles": ["**/*.feature","MyData.js","home_withoutCucumber.js"],
+  "baseUrl": "http://localhost:4200/",
+  "env": {
+    "URL": "http://localhost:4200/",
+    "boutonXpath":"//button[@id='bouton']",
+    "mail1": "yasmine.walha@enis.tn",
+    "password1": "123123"
+  }
+}

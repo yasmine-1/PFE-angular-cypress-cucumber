@@ -1,0 +1,475 @@
+.mat-table {
+  width: 2000px;
+  height: 200px;
+  color: black;
+  background-color: rgb(255, 255, 255);
+}
+
+.card-body {
+  position: absolute;
+  left: -15px;
+  top: 220px;
+}
+
+.mat-header-cell,
+.mat-cell,
+.mat-table,
+th.mat-sort-header-sorted {
+  color: rgb(122, 120, 120);
+}
+
+.mat-row .mat-cell {
+  border-bottom: 1px solid rgb(204, 203, 203);
+  border-top: 1px solid rgb(204, 203, 203);
+}
+
+.ng-container {
+  height: 400px;
+}
+
+.mat-card {
+  background-color: rgb(255, 255, 255);
+  color: rgb(122, 120, 120);
+  width: 1610px
+}
+
+.mat-header-row th {
+  position: sticky;
+  height: 80px;
+  top: 0;
+  background-color: white;
+}
+
+.example-container {
+  position: relative;
+  left: 0px;
+  bottom: 21px;
+  max-height: 63vh;
+  max-width: 166.5vh;
+  overflow: auto;
+}
+
+.filtre {
+  position: relative;
+  bottom: 33px;
+  height: 45px;
+}
+
+.nombreTransaction {
+  position: relative;
+  bottom: 22px;
+}
+
+.mat-cell {
+  font-weight: 400;
+  font-size: small;
+}
+
+.mat-button {
+  position: relative;
+  bottom: 11px;
+  left: -12px;
+  background-color: rgb(2, 105, 119);
+  color: white;
+  font-weight: 400;
+  font-size: small;
+}
+
+.mat-menu-item {
+  background: rgb(255, 255, 255);
+  color: #46beaa;
+  font-weight: normal;
+  width: 400px;
+  position: relative;
+  top: 20px;
+}
+
+.mat-menu-item:hover {
+  background: rgb(232, 225, 225);
+  color: rgba(3, 2, 3, 0.8);
+}
+
+.ligne {
+  border-bottom: 3px solid #46beaa;
+  position: relative;
+  bottom: 5px;
+}
+
+.ligne:hover {
+  color: #46beaa;
+}
+
+.box {
+  background-color: rgb(241, 236, 236);
+  color: rgb(144, 140, 140);
+  pointer-events: none;
+  position: relative;
+  top: -5px;
+}
+
+.FromText {
+  background-color: rgb(241, 236, 236);
+  color: rgb(144, 140, 140);
+  font-size: small;
+  position: relative;
+  top: -65px;
+  pointer-events: none;
+}
+
+.ToText {
+  background-color: rgb(241, 236, 236);
+  color: rgb(144, 140, 140);
+  font-size: small;
+  position: relative;
+  top: -80px;
+  pointer-events: none;
+
+
+}
+
+.list {
+  margin-left: 15px;
+  position: relative;
+  bottom: 22px;
+  right: 15px;
+  width: 400px;
+}
+
+.mat-menu-item:hover {
+  background-color: #ffffff;
+  color: #46beaa;
+}
+
+.mat-menu-item {
+  height: 50px !important;
+}
+
+.example-additional-selection {
+  opacity: 0.75;
+  font-size: 0.75em;
+}
+
+.mat-form-field {
+  background: rgb(241, 236, 236);
+  color: rgb(122, 120, 120);
+
+}
+
+.or {
+  background: rgb(241, 236, 236);
+  color: rgb(122, 120, 120);
+}
+
+.mat-select {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  color: black;
+  height: 50px;
+  width: 250px;
+  border: 1px solid #b1aeae;
+  position: relative;
+  bottom: 45px;
+  border-radius: 5px;
+  padding-left: 10%;
+
+
+}
+
+.line1 {
+  border-bottom: 0.01px solid #e0d8d8;
+  width: 110px;
+  position: relative;
+  bottom: 50px;
+}
+
+.line2 {
+  border-bottom: 0.01px solid #e0d8d8;
+  width: 110px;
+  position: absolute;
+  left: 170px;
+  bottom: 615px;
+
+}
+
+.or1 {
+  position: relative;
+  bottom: 60px;
+  margin-left: 135px;
+  font-size: x-small;
+}
+
+.datePicker1 {
+  position: relative;
+  bottom: 80px;
+  left: 10px;
+  height: 50px;
+  width: 250px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: 1px solid #b1aeae;
+  border-radius: 5px;
+}
+
+::ng-deep .mat-datepicker-toggle {
+  color: black;
+}
+
+::ng-deep .mat-datepicker-toggle {
+  position: relative;
+}
+
+.timePicker1 {
+  position: relative;
+  right: 12px;
+  width: 100px;
+  height: 50px;
+  color: black;
+  border-radius: 5px;
+  border: 1px solid #b1aeae;
+}
+
+.toggle-example {
+  position: relative;
+  margin-left: 170px;
+  bottom: 130px;
+  width: 20px;
+  color: black;
+}
+
+.icon {
+  position: relative;
+  bottom: 40px;
+  left: 50px;
+}
+
+.datePicker2 {
+  position: relative;
+  bottom: 100px;
+  left: 10px;
+  height: 50px;
+  width: 250px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: 1px solid #b1aeae;
+  border-radius: 5px;
+}
+
+.timePicker2 {
+  position: relative;
+  right: 12px;
+  bottom: 95px;
+  width: 100px;
+  height: 50px;
+  color: black;
+  border-radius: 5px;
+  border: 1px solid #b1aeae;
+}
+
+.icon1 {
+  position: relative;
+  bottom: 133px;
+  left: 50px;
+}
+
+.ResetButton {
+  position: relative;
+  top: -70px;
+  padding-left: 150px;
+}
+
+.ApplyButton {
+  position: relative;
+  bottom: 110px;
+  left: 200px;
+}
+
+::ng-deep .MonMenu {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  height: 410px !important;
+  overflow: hidden;
+}
+
+::ng-deep .menuAmount {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  height: 330px !important;
+  overflow: hidden;
+}
+
+::ng-deep .menuLocation {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  height: 385px !important;
+  overflow: hidden;
+}
+
+.days {
+  background-color: #ffffff;
+  color: black;
+}
+
+::ng-deep .myDay .mat-select-panel {
+  position: relative !important;
+  bottom: 200px !important;
+  left: 15px !important;
+}
+
+.selectDay {
+  color: black;
+}
+
+::ng-deep .mat-datepicker-content {
+
+  color: black !important;
+  background-color: rgb(255, 255, 255) !important;
+}
+
+::ng-deep .mat-icon-button {
+  color: black !important;
+}
+
+::ng-deep .mat-calendar-table-header {
+  color: black !important;
+}
+
+::ng-deep .mat-calendar-body-label {
+  color: black !important;
+}
+
+::ng-deep .mat-calendar-body-cell-content {
+  color: black !important;
+}
+
+::ng-deep .mat-calendar-arrow {
+  color: black !important;
+}
+
+::ng-deep .mat-calendar-body-selected {
+  background-color: #46beaa !important;
+}
+
+::ng-deep .mat-calendar-body-cell :hover {
+  background-color: #92eada !important;
+}
+
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+td {
+  padding-right: 8px;
+}
+
+.AmountButton {
+  background-color: #ffffff;
+  color: rgb(144, 140, 140);
+  border: 1px solid #b1aeae;
+  border-radius: 5px;
+  font-weight: 600;
+  position: relative;
+  left: -5px;
+}
+
+.MinBox {
+  position: relative;
+  top: -5px;
+  left: 10px;
+  height: 50px;
+  width: 250px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: 1px solid #b1aeae;
+  border-radius: 5px;
+}
+
+.MaxBox {
+  position: relative;
+  top: -20px;
+  left: 10px;
+  height: 50px;
+  width: 250px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: 1px solid #b1aeae;
+  border-radius: 5px;
+}
+
+.LocationButton {
+  background-color: #ffffff;
+  color: rgb(144, 140, 140);
+  border: 1px solid #b1aeae;
+  border-radius: 5px;
+  font-weight: 600;
+  position: relative;
+  left: 2px;
+}
+
+.level1 {
+  background-color: rgb(241, 236, 236);
+  color: rgb(144, 140, 140);
+  pointer-events: none;
+  position: relative;
+  top: 10px;
+}
+
+.level1-box {
+  width: 100%;
+  position: relative;
+  top: 20px
+}
+
+.selectLevel {
+  color: black;
+}
+
+.levels {
+  background-color: #ffffff;
+  color: black;
+}
+
+.level2 {
+  background-color: rgb(241, 236, 236);
+  color: rgb(144, 140, 140);
+  pointer-events: none;
+  position: relative;
+  top: -50px;
+}
+
+.level2-box {
+  width: 100%;
+  position: relative;
+  top: -40px
+}
+
+.level3 {
+  background-color: rgb(241, 236, 236);
+  color: rgb(144, 140, 140);
+  pointer-events: none;
+  position: relative;
+  top: -110px;
+}
+
+.level3-box {
+  width: 100%;
+  position: relative;
+  top: -100px;
+}
+
+.level1-box1 .select-location {
+  position: relative !important;
+  left: 15px !important;
+}
+
+.mat-error {
+  position: absolute;
+}

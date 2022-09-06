@@ -1,0 +1,192 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "test internationalization labels of home page",
+    "line": 1,
+    "id": "test-internationalization-labels-of-home-page",
+    "tags": [],
+    "uri": "home.feature",
+    "elements": [
+      {
+        "id": "test-internationalization-labels-of-home-page;making-sure-that-i-am-on-landing-page",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Making sure that I am on landing page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "EXCEL file is read and transformed into JSON file",
+            "result": {
+              "status": "passed",
+              "duration": 95000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I access to the website of e-Portal",
+            "result": {
+              "status": "passed",
+              "duration": 2869000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "email \"yasmine.walha@enis.tn\" should be filled in",
+            "result": {
+              "status": "passed",
+              "duration": 1485000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "password \"123123\" should be filled in",
+            "result": {
+              "status": "passed",
+              "duration": 1287000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Footer is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 2018000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-internationalization-labels-of-home-page;verifying-english-language-for-labels-in-home-page",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Verifying English language for labels in home page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "EXCEL file is read and transformed into JSON file",
+            "result": {
+              "status": "passed",
+              "duration": 37000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I access to the website of e-Portal",
+            "result": {
+              "status": "passed",
+              "duration": 2407000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "email \"yasmine.walha@enis.tn\" should be filled in",
+            "result": {
+              "status": "passed",
+              "duration": 1423000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "password \"123123\" should be filled in",
+            "result": {
+              "status": "passed",
+              "duration": 1332000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "English language should be verified for all labels in home page",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: expected '<p.titre1>' to have text 'Dashboardd', but the text was 'Dashboard'\n    + expected - actual\n\n    -'Dashboard'\n    +'Dashboardd'\n\n    at eval (http://localhost:4200/__cypress/tests?p=cypress\\integration\\home.feature:493:36)\nat Array.forEach (<anonymous>)\n    at eval (http://localhost:4200/__cypress/tests?p=cypress\\integration\\home.feature:485:35)\nat Array.forEach (<anonymous>)\n    at eval (http://localhost:4200/__cypress/tests?p=cypress\\integration\\home.feature:471:20)\nat Array.forEach (<anonymous>)\n    at Context.eval (http://localhost:4200/__cypress/tests?p=cypress\\integration\\home.feature:470:15)\n    at Context.resolveAndRunStepDefinition (http://localhost:4200/__cypress/tests?p=cypress\\integration\\home.feature:8023:29)\n    at Context.eval (http://localhost:4200/__cypress/tests?p=cypress\\integration\\home.feature:7344:35)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-internationalization-labels-of-home-page;verifying-frensh-language-for-labels-in-home-page",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Verifying Frensh language for labels in home page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "EXCEL file is read and transformed into JSON file",
+            "result": {
+              "status": "passed",
+              "duration": 62000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I access to the website of e-Portal",
+            "result": {
+              "status": "passed",
+              "duration": 2699000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "email \"yasmine.walha@enis.tn\" should be filled in",
+            "result": {
+              "status": "passed",
+              "duration": 1430000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "password \"123123\" should be filled in",
+            "result": {
+              "status": "passed",
+              "duration": 1325000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Frensh language should be verified for all labels in home page",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: expected '<p.title1.ng-star-inserted>' to have text 'Snapshott', but the text was 'Snapshot'\n    + expected - actual\n\n    -'Snapshot'\n    +'Snapshott'\n\n    at eval (http://localhost:4200/__cypress/tests?p=cypress\\integration\\home.feature:554:34)\nat Array.forEach (<anonymous>)\n    at eval (http://localhost:4200/__cypress/tests?p=cypress\\integration\\home.feature:518:20)\nat Array.forEach (<anonymous>)\n    at Context.eval (http://localhost:4200/__cypress/tests?p=cypress\\integration\\home.feature:517:16)\n    at Context.resolveAndRunStepDefinition (http://localhost:4200/__cypress/tests?p=cypress\\integration\\home.feature:8023:29)\n    at Context.eval (http://localhost:4200/__cypress/tests?p=cypress\\integration\\home.feature:7344:35)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

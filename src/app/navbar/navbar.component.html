@@ -1,0 +1,26 @@
+<mat-toolbar>
+  <p class="nom" style="color:#46beaa">
+    <img src="assets/carte.png" alt="image" />
+    e-Portal
+  </p>
+  <div class="vl"></div>
+  <mat-form-field id="example1" appearance="fill"
+    style="color: #000000;position: absolute; top:-5px;right:274px;font-size: 14px;font-weight:'normal';width:100px">
+    <mat-select [(value)]="selected" style="width:100px" #selectedLang
+      (selectionChange)="switchLang(selectedLang.value)">
+      <mat-option style="background-color: #FFFFFF;font-size: 14px;font-weight:'normal'"
+        *ngFor="let language of ListLanguagesAfterSplit" [value]="language">
+        {{language}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  <p style="color:#000000; position: absolute">
+  <p class="nam">{{name}}</p>
+  <p>
+    <img src="assets/profil.png" class="pic2" alt="image" />
+    <a href="/login" onclick="someFunction();" class="deconn">
+      <mat-icon class="logoDeconn">exit_to_app</mat-icon>
+    </a>
+  <div class="vl1"></div>
+  <img src="assets/worldline-logo.png" class="pic" alt="image" />
+</mat-toolbar>

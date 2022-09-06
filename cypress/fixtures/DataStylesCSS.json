@@ -1,0 +1,422 @@
+[
+  {
+    "Information": "Welcome message",
+    "Color": "rgba(0, 0, 0, 0)",
+    "Width": "482.484375px",
+    "Height": "20px",
+    "xPath": "//div[@id='WelcomeTexte']",
+    "actions": null,
+    "EndActions": null,
+    "PageName": "landing"
+  },
+  {
+    "Information": "omniChannel Title",
+    "Color": "rgba(0, 0, 0, 0)",
+    "Width": "297.8125px",
+    "Height": "20px",
+    "xPath": "//mat-card-title[normalize-space()='Omnichannel Reporting']",
+    "actions": null,
+    "EndActions": null,
+    "PageName": "landing"
+  },
+  {
+    "Information": "omniChannel subtitle",
+    "Color": "rgba(0, 0, 0, 0)",
+    "Width": "297.8125px",
+    "Height": "20px",
+    "xPath": "/html[1]/body[1]/app-root[1]/app-home[1]/div[1]/app-dashboard[1]/div[1]/mat-grid-list[1]/div[1]/mat-grid-tile[1]/div[1]/app-box[1]/div[1]/mat-card[1]/mat-card-header[1]/div[1]/mat-card-subtitle[1]",
+    "actions": null,
+    "EndActions": null,
+    "PageName": "landing"
+  },
+  {
+    "Information": "omniChannel DashboardElement",
+    "Color": "rgba(0, 0, 0, 0)",
+    "Width": "88.0625px",
+    "Height": "20px",
+    "xPath": "/html[1]/body[1]/app-root[1]/app-home[1]/div[1]/app-dashboard[1]/div[1]/mat-grid-list[1]/div[1]/mat-grid-tile[1]/div[1]/app-box[1]/div[1]/mat-card[1]/div[1]/p[1]",
+    "actions": null,
+    "EndActions": null,
+    "PageName": "landing"
+  },
+  {
+    "Information": "View All Button",
+    "Color": "rgba(0, 0, 0, 0)",
+    "Width": "93.09375px",
+    "Height": "20px",
+    "xPath": "/html[1]/body[1]/app-root[1]/app-home[1]/div[1]/app-dashboard[1]/div[1]/mat-grid-list[1]/div[1]/mat-grid-tile[1]/div[1]/app-box[1]/div[1]/mat-card[1]/div[6]/div[2]",
+    "actions": "/html[1]/body[1]/app-root[1]/app-home[1]/div[1]/app-dashboard[1]/div[1]/mat-grid-list[1]/div[1]/mat-grid-tile[1]/div[1]/app-box[1]/div[1]/mat-card[1]/div[6]/div[2]",
+    "EndActions": "//mat-icon[normalize-space()='close']",
+    "PageName": "landing"
+  },
+  {
+    "Information": "popupOmniChannel DashboardElement",
+    "Color": "rgba(0, 0, 0, 0)",
+    "Width": "297px",
+    "Height": "20px",
+    "xPath": "/html[1]/body[1]/div[2]/div[2]/div[1]/mat-dialog-container[1]/app-pop-up[1]/div[1]/p[1]",
+    "actions": "/html[1]/body[1]/app-root[1]/app-home[1]/div[1]/app-dashboard[1]/div[1]/mat-grid-list[1]/div[1]/mat-grid-tile[1]/div[1]/app-box[1]/div[1]/mat-card[1]/div[6]/div[2]",
+    "EndActions": "//mat-icon[normalize-space()='close']",
+    "PageName": "landing"
+  },
+  {
+    "Information": "popupOmniChannel Immediate ReportsElement",
+    "Color": "rgba(0, 0, 0, 0)",
+    "Width": "297px",
+    "Height": "20px",
+    "xPath": "/html[1]/body[1]/div[2]/div[2]/div[1]/mat-dialog-container[1]/app-pop-up[1]/div[2]/p[1]",
+    "actions": "/html[1]/body[1]/app-root[1]/app-home[1]/div[1]/app-dashboard[1]/div[1]/mat-grid-list[1]/div[1]/mat-grid-tile[1]/div[1]/app-box[1]/div[1]/mat-card[1]/div[6]/div[2]",
+    "EndActions": "//mat-icon[normalize-space()='close']",
+    "PageName": "landing"
+  },
+  {
+    "Information": "popupOmniChannel Scheduled ReportsElement",
+    "Color": "rgba(0, 0, 0, 0)",
+    "Width": "297px",
+    "Height": "20px",
+    "xPath": "/html[1]/body[1]/div[2]/div[2]/div[1]/mat-dialog-container[1]/app-pop-up[1]/div[3]/p[1]",
+    "actions": "/html[1]/body[1]/app-root[1]/app-home[1]/div[1]/app-dashboard[1]/div[1]/mat-grid-list[1]/div[1]/mat-grid-tile[1]/div[1]/app-box[1]/div[1]/mat-card[1]/div[6]/div[2]",
+    "EndActions": "//mat-icon[normalize-space()='close']",
+    "PageName": "landing"
+  },
+  {
+    "Information": "popupOmniChannel Transaction ManagementElement",
+    "Color": "rgba(0, 0, 0, 0)",
+    "Width": "297px",
+    "Height": "20px",
+    "xPath": "/html[1]/body[1]/div[2]/div[2]/div[1]/mat-dialog-container[1]/app-pop-up[1]/div[4]/p[1]",
+    "actions": "/html[1]/body[1]/app-root[1]/app-home[1]/div[1]/app-dashboard[1]/div[1]/mat-grid-list[1]/div[1]/mat-grid-tile[1]/div[1]/app-box[1]/div[1]/mat-card[1]/div[6]/div[2]",
+    "EndActions": "//mat-icon[normalize-space()='close']",
+    "PageName": "landing"
+  },
+  {
+    "Information": "popupOmniChannel Risk preventionElement",
+    "Color": "rgba(0, 0, 0, 0)",
+    "Width": "297px",
+    "Height": "20px",
+    "xPath": "/html[1]/body[1]/div[2]/div[2]/div[1]/mat-dialog-container[1]/app-pop-up[1]/div[5]/p[1]",
+    "actions": "/html[1]/body[1]/app-root[1]/app-home[1]/div[1]/app-dashboard[1]/div[1]/mat-grid-list[1]/div[1]/mat-grid-tile[1]/div[1]/app-box[1]/div[1]/mat-card[1]/div[6]/div[2]",
+    "EndActions": "//mat-icon[normalize-space()='close']",
+    "PageName": "landing"
+  },
+  {
+    "Information": "popupOmniChannel Merchant reportElement",
+    "Color": "rgba(0, 0, 0, 0)",
+    "Width": "297px",
+    "Height": "20px",
+    "xPath": "/html[1]/body[1]/div[2]/div[2]/div[1]/mat-dialog-container[1]/app-pop-up[1]/div[6]/p[1]",
+    "actions": "/html[1]/body[1]/app-root[1]/app-home[1]/div[1]/app-dashboard[1]/div[1]/mat-grid-list[1]/div[1]/mat-grid-tile[1]/div[1]/app-box[1]/div[1]/mat-card[1]/div[6]/div[2]",
+    "EndActions": "//mat-icon[normalize-space()='close']",
+    "PageName": "landing"
+  },
+  {
+    "Information": "onboarding Title",
+    "Color": "rgba(0, 0, 0, 0)",
+    "Width": "249.015625px",
+    "Height": "20px",
+    "xPath": "/html[1]/body[1]/app-root[1]/app-home[1]/div[1]/app-dashboard[1]/div[1]/mat-grid-list[1]/div[1]/mat-grid-tile[2]/div[1]/app-box[1]/div[1]/mat-card[1]/mat-card-header[1]/div[1]/mat-card-title[1]",
+    "actions": null,
+    "EndActions": null,
+    "PageName": "landing"
+  },
+  {
+    "Information": "onboarding Subtitle",
+    "Color": "rgba(0, 0, 0, 0)",
+    "Width": "249.015625px",
+    "Height": "20px",
+    "xPath": "/html[1]/body[1]/app-root[1]/app-home[1]/div[1]/app-dashboard[1]/div[1]/mat-grid-list[1]/div[1]/mat-grid-tile[2]/div[1]/app-box[1]/div[1]/mat-card[1]/mat-card-header[1]/div[1]/mat-card-subtitle[1]",
+    "actions": null,
+    "EndActions": null,
+    "PageName": "landing"
+  },
+  {
+    "Information": "onboarding ProjectsElement",
+    "Color": "rgba(0, 0, 0, 0)",
+    "Width": "65.03125px",
+    "Height": "20px",
+    "xPath": "/html[1]/body[1]/app-root[1]/app-home[1]/div[1]/app-dashboard[1]/div[1]/mat-grid-list[1]/div[1]/mat-grid-tile[2]/div[1]/app-box[1]/div[1]/mat-card[1]/div[1]/p[1]",
+    "actions": null,
+    "EndActions": null,
+    "PageName": "landing"
+  },
+  {
+    "Information": "onboarding TokenizationElement",
+    "Color": "rgba(0, 0, 0, 0)",
+    "Width": "100.078125px",
+    "Height": "20px",
+    "xPath": "/html[1]/body[1]/app-root[1]/app-home[1]/div[1]/app-dashboard[1]/div[1]/mat-grid-list[1]/div[1]/mat-grid-tile[2]/div[1]/app-box[1]/div[1]/mat-card[1]/div[2]/div[1]/p[1]",
+    "actions": null,
+    "EndActions": null,
+    "PageName": "landing"
+  },
+  {
+    "Information": "terminal Title",
+    "Color": "rgba(0, 0, 0, 0)",
+    "Width": "253.671875px",
+    "Height": "20px",
+    "xPath": "/html[1]/body[1]/app-root[1]/app-home[1]/div[1]/app-dashboard[1]/div[1]/mat-grid-list[1]/div[1]/mat-grid-tile[3]/div[1]/app-box[1]/div[1]/mat-card[1]/mat-card-header[1]/div[1]/mat-card-title[1]",
+    "actions": null,
+    "EndActions": null,
+    "PageName": "landing"
+  },
+  {
+    "Information": "terminal Subtitle",
+    "Color": "rgba(0, 0, 0, 0)",
+    "Width": "253.671875px",
+    "Height": "20px",
+    "xPath": "/html[1]/body[1]/app-root[1]/app-home[1]/div[1]/app-dashboard[1]/div[1]/mat-grid-list[1]/div[1]/mat-grid-tile[3]/div[1]/app-box[1]/div[1]/mat-card[1]/mat-card-header[1]/div[1]/mat-card-subtitle[1]",
+    "actions": null,
+    "EndActions": null,
+    "PageName": "landing"
+  },
+  {
+    "Information": "terminal snapshotElement",
+    "Color": "rgba(0, 0, 0, 0)",
+    "Width": "76.0625px",
+    "Height": "20px",
+    "xPath": "/html[1]/body[1]/app-root[1]/app-home[1]/div[1]/app-dashboard[1]/div[1]/mat-grid-list[1]/div[1]/mat-grid-tile[3]/div[1]/app-box[1]/div[1]/mat-card[1]/div[1]/p[1]",
+    "actions": null,
+    "EndActions": null,
+    "PageName": "landing"
+  },
+  {
+    "Information": "terminal softwareElement",
+    "Color": "rgba(0, 0, 0, 0)",
+    "Width": "147.0625px",
+    "Height": "20px",
+    "xPath": "/html[1]/body[1]/app-root[1]/app-home[1]/div[1]/app-dashboard[1]/div[1]/mat-grid-list[1]/div[1]/mat-grid-tile[3]/div[1]/app-box[1]/div[1]/mat-card[1]/div[2]/div[1]/p[1]",
+    "actions": null,
+    "EndActions": null,
+    "PageName": "landing"
+  },
+  {
+    "Information": "View All Button",
+    "Color": "rgba(0, 0, 0, 0)",
+    "Width": "93.09375px",
+    "Height": "20px",
+    "xPath": "/html[1]/body[1]/app-root[1]/app-home[1]/div[1]/app-dashboard[1]/div[1]/mat-grid-list[1]/div[1]/mat-grid-tile[3]/div[1]/app-box[1]/div[1]/mat-card[1]/div[4]/div[2]",
+    "actions": "/html[1]/body[1]/app-root[1]/app-home[1]/div[1]/app-dashboard[1]/div[1]/mat-grid-list[1]/div[1]/mat-grid-tile[3]/div[1]/app-box[1]/div[1]/mat-card[1]/div[4]/div[2]",
+    "EndActions": "//mat-icon[normalize-space()='close']",
+    "PageName": "landing"
+  },
+  {
+    "Information": "popupTerminal snapshotElement",
+    "Color": "rgba(0, 0, 0, 0)",
+    "Width": "297px",
+    "Height": "20px",
+    "xPath": "/html[1]/body[1]/div[2]/div[2]/div[1]/mat-dialog-container[1]/app-pop-up[1]/div[1]/p[1]",
+    "actions": "/html[1]/body[1]/app-root[1]/app-home[1]/div[1]/app-dashboard[1]/div[1]/mat-grid-list[1]/div[1]/mat-grid-tile[3]/div[1]/app-box[1]/div[1]/mat-card[1]/div[4]/div[2]",
+    "EndActions": "//mat-icon[normalize-space()='close']",
+    "PageName": "landing"
+  },
+  {
+    "Information": "popupTerminal softwareElement",
+    "Color": "rgba(0, 0, 0, 0)",
+    "Width": "297px",
+    "Height": "20px",
+    "xPath": "/html[1]/body[1]/div[2]/div[2]/div[1]/mat-dialog-container[1]/app-pop-up[1]/div[2]/p[1]",
+    "actions": "/html[1]/body[1]/app-root[1]/app-home[1]/div[1]/app-dashboard[1]/div[1]/mat-grid-list[1]/div[1]/mat-grid-tile[3]/div[1]/app-box[1]/div[1]/mat-card[1]/div[4]/div[2]",
+    "EndActions": "//mat-icon[normalize-space()='close']",
+    "PageName": "landing"
+  },
+  {
+    "Information": "popupTerminal hardwareElement",
+    "Color": "rgba(0, 0, 0, 0)",
+    "Width": "297px",
+    "Height": "20px",
+    "xPath": "/html[1]/body[1]/div[2]/div[2]/div[1]/mat-dialog-container[1]/app-pop-up[1]/div[3]/p[1]",
+    "actions": "/html[1]/body[1]/app-root[1]/app-home[1]/div[1]/app-dashboard[1]/div[1]/mat-grid-list[1]/div[1]/mat-grid-tile[3]/div[1]/app-box[1]/div[1]/mat-card[1]/div[4]/div[2]",
+    "EndActions": "//mat-icon[normalize-space()='close']",
+    "PageName": "landing"
+  },
+  {
+    "Information": "popupTerminal tokenizationElement",
+    "Color": "rgba(0, 0, 0, 0)",
+    "Width": "297px",
+    "Height": "20px",
+    "xPath": "/html[1]/body[1]/div[2]/div[2]/div[1]/mat-dialog-container[1]/app-pop-up[1]/div[4]/p[1]",
+    "actions": "/html[1]/body[1]/app-root[1]/app-home[1]/div[1]/app-dashboard[1]/div[1]/mat-grid-list[1]/div[1]/mat-grid-tile[3]/div[1]/app-box[1]/div[1]/mat-card[1]/div[4]/div[2]",
+    "EndActions": "//mat-icon[normalize-space()='close']",
+    "PageName": "landing"
+  },
+  {
+    "Information": "payments Title",
+    "Color": "rgba(0, 0, 0, 0)",
+    "Width": "256.421875px",
+    "Height": "20px",
+    "xPath": "/html[1]/body[1]/app-root[1]/app-home[1]/div[1]/app-dashboard[1]/div[1]/mat-grid-list[1]/div[1]/mat-grid-tile[4]/div[1]/app-box[1]/div[1]/mat-card[1]/mat-card-header[1]/div[1]/mat-card-title[1]",
+    "actions": null,
+    "EndActions": null,
+    "PageName": "landing"
+  },
+  {
+    "Information": "payments Subtitle",
+    "Color": "rgba(0, 0, 0, 0)",
+    "Width": "256.421875px",
+    "Height": "20px",
+    "xPath": "/html[1]/body[1]/app-root[1]/app-home[1]/div[1]/app-dashboard[1]/div[1]/mat-grid-list[1]/div[1]/mat-grid-tile[4]/div[1]/app-box[1]/div[1]/mat-card[1]/mat-card-header[1]/div[1]/mat-card-subtitle[1]",
+    "actions": null,
+    "EndActions": null,
+    "PageName": "landing"
+  },
+  {
+    "Information": "payments menuElement",
+    "Color": "rgba(0, 0, 0, 0)",
+    "Width": "89.046875px",
+    "Height": "20px",
+    "xPath": "/html[1]/body[1]/app-root[1]/app-home[1]/div[1]/app-dashboard[1]/div[1]/mat-grid-list[1]/div[1]/mat-grid-tile[4]/div[1]/app-box[1]/div[1]/mat-card[1]/div[1]/p[1]",
+    "actions": null,
+    "EndActions": null,
+    "PageName": "landing"
+  },
+  {
+    "Information": "payments transactionsElement",
+    "Color": "rgba(0, 0, 0, 0)",
+    "Width": "102.375px",
+    "Height": "20px",
+    "xPath": "/html[1]/body[1]/app-root[1]/app-home[1]/div[1]/app-dashboard[1]/div[1]/mat-grid-list[1]/div[1]/mat-grid-tile[4]/div[1]/app-box[1]/div[1]/mat-card[1]/div[2]/div[1]/p[1]",
+    "actions": null,
+    "EndActions": null,
+    "PageName": "landing"
+  },
+  {
+    "Information": "monitoring Title",
+    "Color": "rgba(0, 0, 0, 0)",
+    "Width": "253.671875px",
+    "Height": "20px",
+    "xPath": "/html[1]/body[1]/app-root[1]/app-home[1]/div[1]/app-dashboard[1]/div[1]/mat-grid-list[1]/div[1]/mat-grid-tile[5]/div[1]/app-box[1]/div[1]/mat-card[1]/mat-card-header[1]/div[1]/mat-card-title[1]",
+    "actions": null,
+    "EndActions": null,
+    "PageName": "landing"
+  },
+  {
+    "Information": "monitoring Subtitle",
+    "Color": "rgba(0, 0, 0, 0)",
+    "Width": "253.671875px",
+    "Height": "20px",
+    "xPath": "/html[1]/body[1]/app-root[1]/app-home[1]/div[1]/app-dashboard[1]/div[1]/mat-grid-list[1]/div[1]/mat-grid-tile[5]/div[1]/app-box[1]/div[1]/mat-card[1]/mat-card-header[1]/div[1]/mat-card-subtitle[1]",
+    "actions": null,
+    "EndActions": null,
+    "PageName": "landing"
+  },
+  {
+    "Information": "monitoring definedElement",
+    "Color": "rgba(0, 0, 0, 0)",
+    "Width": "108.09375px",
+    "Height": "20px",
+    "xPath": "/html[1]/body[1]/app-root[1]/app-home[1]/div[1]/app-dashboard[1]/div[1]/mat-grid-list[1]/div[1]/mat-grid-tile[5]/div[1]/app-box[1]/div[1]/mat-card[1]/div[1]/p[1]",
+    "actions": null,
+    "EndActions": null,
+    "PageName": "landing"
+  },
+  {
+    "Information": "monitoring definedElement",
+    "Color": "rgba(0, 0, 0, 0)",
+    "Width": "108.09375px",
+    "Height": "20px",
+    "xPath": "/html[1]/body[1]/app-root[1]/app-home[1]/div[1]/app-dashboard[1]/div[1]/mat-grid-list[1]/div[1]/mat-grid-tile[5]/div[1]/app-box[1]/div[1]/mat-card[1]/div[2]/div[1]/p[1]",
+    "actions": null,
+    "EndActions": null,
+    "PageName": "landing"
+  },
+  {
+    "Information": "Background of login's box",
+    "Color": "rgba(0, 0, 0, 0.4)",
+    "Width": "492px",
+    "Height": "600px",
+    "xPath": "//div[@id='myCard']",
+    "actions": null,
+    "EndActions": null,
+    "PageName": "login"
+  },
+  {
+    "Information": "Title of login's box",
+    "Color": "rgba(0, 0, 0, 0)",
+    "Width": "412px",
+    "Height": "32px",
+    "xPath": "//h2[@id='titlename']",
+    "actions": null,
+    "EndActions": null,
+    "PageName": "login"
+  },
+  {
+    "Information": "Language selected",
+    "Color": "rgba(0, 0, 0, 0)",
+    "Width": "80px",
+    "Height": "22px",
+    "xPath": "//select[@name='language']",
+    "actions": null,
+    "EndActions": null,
+    "PageName": "login"
+  },
+  {
+    "Information": "input email",
+    "Color": "rgb(255, 255, 255)",
+    "Width": "383px",
+    "Height": "55px",
+    "xPath": "//input[@id='exampleInputEmail1']",
+    "actions": null,
+    "EndActions": null,
+    "PageName": "login"
+  },
+  {
+    "Information": "input password",
+    "Color": "rgb(255, 255, 255)",
+    "Width": "383px",
+    "Height": "55px",
+    "xPath": "//input[@id='exampleInputPassword1']",
+    "actions": null,
+    "EndActions": null,
+    "PageName": "login"
+  },
+  {
+    "Information": "forgot password",
+    "Color": "rgba(0, 0, 0, 0)",
+    "Width": "120.0625px",
+    "Height": "24px",
+    "xPath": "//h4[@id='forgotPasswords']",
+    "actions": null,
+    "EndActions": null,
+    "PageName": "login"
+  },
+  {
+    "Information": "button sign in",
+    "Color": "rgba(0, 0, 0, 0.4)",
+    "Width": "385px",
+    "Height": "40px",
+    "xPath": "//button[@id='bouton']",
+    "actions": null,
+    "EndActions": null,
+    "PageName": "login"
+  },
+  {
+    "Information": "Going to sign up page",
+    "Color": "rgba(0, 0, 0, 0)",
+    "Width": "256.8125px",
+    "Height": "24px",
+    "xPath": "//h4[@id='newUser']",
+    "actions": null,
+    "EndActions": null,
+    "PageName": "login"
+  },
+  {
+    "Information": "Helpdesk",
+    "Color": "rgba(0, 0, 0, 0)",
+    "Width": "270.171875px",
+    "Height": "20px",
+    "xPath": "//div[@id='emailHelp']",
+    "actions": null,
+    "EndActions": null,
+    "PageName": "login"
+  },
+  {
+    "Information": "Worldline word",
+    "Color": "rgba(0, 0, 0, 0)",
+    "Width": "71.921875px",
+    "Height": "10px",
+    "xPath": "//h6[@id='worldline']",
+    "actions": null,
+    "EndActions": null,
+    "PageName": "login"
+  }
+]
