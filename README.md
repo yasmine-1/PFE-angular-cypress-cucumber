@@ -1,4 +1,4 @@
-To run the project, type the following command: npx json-server db.json 
-then choose:                                    http://localhost:3000/signupUsers
-and type:                                       ng serve
+To run the project, type the following command: npx json-server db.json <br />
+then choose:                                    http://localhost:3000/signupUsers <br />
+and type:                                       ng serve  <br />
 
